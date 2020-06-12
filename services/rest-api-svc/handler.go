@@ -4,8 +4,8 @@ import (
 	"github.com/go-openapi/loads"
 	"github.com/sirupsen/logrus"
 
-	"github.com/begmaroman/go-micro-boilerplate/services/rest-api-svc/swaggergen/restapi"
-	"github.com/begmaroman/go-micro-boilerplate/services/rest-api-svc/swaggergen/restapi/operations"
+	"github.com/phamtuanchip/go-micro-boilerplate/services/rest-api-svc/swaggergen/restapi"
+	"github.com/phamtuanchip/go-micro-boilerplate/services/rest-api-svc/swaggergen/restapi/operations"
 )
 
 // NewRestAPI sets up the swagger API of the service.

@@ -6,8 +6,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	accountproto "github.com/begmaroman/go-micro-boilerplate/proto/account-svc"
-	"github.com/begmaroman/go-micro-boilerplate/services/account-svc/store"
+	accountproto "github.com/phamtuanchip/go-micro-boilerplate/proto/account-svc"
+	"github.com/phamtuanchip/go-micro-boilerplate/services/account-svc/store"
 )
 
 // Options contains options to create a domain.

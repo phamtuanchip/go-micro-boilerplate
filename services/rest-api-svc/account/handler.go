@@ -3,8 +3,8 @@ package account
 import (
 	"github.com/sirupsen/logrus"
 
-	accountproto "github.com/begmaroman/go-micro-boilerplate/proto/account-svc"
-	"github.com/begmaroman/go-micro-boilerplate/services/rest-api-svc/swaggergen/restapi/operations"
+	accountproto "github.com/phamtuanchip/go-micro-boilerplate/proto/account-svc"
+	"github.com/phamtuanchip/go-micro-boilerplate/services/rest-api-svc/swaggergen/restapi/operations"
 )
 
 // RestHandlerOptions contains required options for the handler.

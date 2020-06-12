@@ -9,11 +9,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	accountproto "github.com/begmaroman/go-micro-boilerplate/proto/account-svc"
-	"github.com/begmaroman/go-micro-boilerplate/proto/health"
-	proto "github.com/begmaroman/go-micro-boilerplate/proto/status"
-	"github.com/begmaroman/go-micro-boilerplate/services/account-svc/domain"
-	"github.com/begmaroman/go-micro-boilerplate/utils/rpc"
+	accountproto "github.com/phamtuanchip/go-micro-boilerplate/proto/account-svc"
+	"github.com/phamtuanchip/go-micro-boilerplate/proto/health"
+	proto "github.com/phamtuanchip/go-micro-boilerplate/proto/status"
+	"github.com/phamtuanchip/go-micro-boilerplate/services/account-svc/domain"
+	"github.com/phamtuanchip/go-micro-boilerplate/utils/rpc"
 )
 
 // To make sure Handler implements accountproto.AccountService interface.

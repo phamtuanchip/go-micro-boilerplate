@@ -3,9 +3,9 @@ package rpc
 import (
 	"fmt"
 
-	statuscode "google.golang.org/genproto/googleapis/rpc/code"
+	statuscode "google.golang.org/phamtuanchip/googleapis/rpc/code"
 
-	status "github.com/begmaroman/go-micro-boilerplate/proto/status"
+	status "github.com/phamtuanchip/go-micro-boilerplate/proto/status"
 )
 
 // ErrAbortedCode is the integer corresponding to the
